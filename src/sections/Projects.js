@@ -9,7 +9,7 @@ const Projects = () => (
         <p>
           Un projet innovant utilisant React et une belle interface utilisateur.
         </p>
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="#Tiavina" target="_blank" rel="noopener noreferrer">
           Voir le projet
         </a>
       </div>

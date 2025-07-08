@@ -1,4 +1,4 @@
-/* App.css modernisé pour le portfolio */
+
 
 .app-container {
   min-height: 100vh;
@@ -89,4 +89,22 @@ footer {
   to {
     transform: rotate(360deg);
   }
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-icons a {
+  color: var(--color-accent);
+  font-size: 2rem;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.footer-icons a:hover {
+  color: var(--color-primary);
+  transform: scale(1.18) rotate(-8deg);
 }

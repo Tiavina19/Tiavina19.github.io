@@ -6,12 +6,14 @@
   --color-accent: #077b8a;
   --color-dark: #5c3929;
   --color-light: #f8f8f8;
+  --color-text: var(--color-dark);
+  --color-bg: var(--color-light);
 }
 
 body {
   font-family: 'Montserrat', Arial, sans-serif;
-  background: var(--color-light);
-  color: var(--color-dark);
+  background: var(--color-bg);
+  color: var(--color-text);
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
@@ -21,4 +23,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.dark-mode {
+  --color-bg: #18191a;
+  --color-text: #f8f8f8;
+  --color-primary: #d72631;
+  --color-secondary: #077b8a;
+  --color-accent: #a2d5c6;
+  --color-dark: #f8f8f8;
 }
